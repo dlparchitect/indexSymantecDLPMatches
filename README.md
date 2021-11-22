@@ -11,13 +11,12 @@ of Incidents by date or pull a certain number of incidents at a time (up to 1000
 4/ Once the matches are in ElastiSearch, the code makes another call to the DLP Rest API to update the processed incidents by adding a note.
 
 Prerequisites
-    indexDLPMatches.py is written in Python 3.8
-    Symantec DLP 15.8 MP1
-        A Symantec DLP user with API privileges 
-    Python 3.8
-    json and requests Python modules
-    ElasticSearch/Kibana
-    Splunk with HEC
+1/ indexDLPMatches.py is written in Python 3.8
+2/ Symantec DLP 15.8 MP1
+    2.1/ A Symantec DLP user with API privileges 
+3/ Python 3.8
+    3.1/ json and requests Python modules
+4/ ElasticSearch/Kibana or Splunk with HEC
 
 References:
 https://techdocs.broadcom.com/us/en/symantec-security-software/information-security/data-loss-prevention/15-8/DLP-Enforce-REST-APIs-overview/overview.html 
