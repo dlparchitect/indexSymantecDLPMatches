@@ -1,7 +1,8 @@
 # indexSymantecDLPMatches
 
 PROVIDED AS-IS
-The code is a) an example and b) provided as-is, we do not know your computing environment so you need to assess the script’s function and performance before implementing it.
+The code is a) an example and b) provided as-is, we do not know your computing environment so you need to assess the script’s __ 
+function and performance before implementing it. __
 
 
 1/ Get a List of Incidents that have not been processed (using a specific Incidents Note as defined by dlpEnforceIncidentNote). You can use other artifacts, such as Incident Status. It is possible to control the number 
