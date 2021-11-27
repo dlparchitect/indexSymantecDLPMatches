@@ -20,8 +20,8 @@ https://techdocs.broadcom.com/us/en/symantec-security-software/information-secur
 You can use other artifacts, such as Incident Status. It is possible to control the number <br />
 of Incidents by date or pull a certain number of incidents at a time <br />
 (up to 10000 as per the API... defined by dlpEnforceIncidentPageSize). <br />
-2/ With the incident list, the code makes another call to obtain each's incidents details, including the Matches. <br />
+2/ With the incident list, the code makes another call to obtain each's incidents details, including the incident matches. <br />
 3/ The code can make bulk or individual API calls to ElasticSearch or Splunk for indexing. <br />
-4/ Once the matches are in ElastiSearch, the code makes another call to the DLP Rest API to update the processed incidents by adding a note. <br />
+4/ Once the matches are in ElastiSearch/Splunk, the code makes another call to the DLP Rest API to update the processed incidents by adding a note. <br />
 <br />
 
