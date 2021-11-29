@@ -52,7 +52,7 @@ dlpEnforceIncidentNote = "Matches Processed"
 dlpEnforceIncidentPageSize = 5
 
 #ElasticSearch Parameters
-esURL = 'http://192.168.5.197:9200'
+esURL = 'https://192.168.5.197:9200'
 esIndex = 'indexdlpmatches'
 esHeaders = {"Content-Type": "application/json"}
 esTypeIndex = '_doc'
